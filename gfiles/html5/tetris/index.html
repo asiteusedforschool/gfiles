@@ -7,7 +7,12 @@
 
     <script src="cookie.js"></script>
     <script src="gameControls.js"></script>
-
+    <script>
+        document.addEventListener('keyup', function(e){
+          if(e.keyCode == 82)
+            window.location.reload();
+        })
+    </script>
     <script src="jawsjs.js"></script>
     <script src="Block.js"></script>
     <script src="Shapes.js"></script>
